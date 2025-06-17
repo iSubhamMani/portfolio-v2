@@ -1,22 +1,33 @@
 "use client";
 
-import { FiSun } from "react-icons/fi";
+import { FiMoon, FiSun } from "react-icons/fi";
 import { FaXTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa6";
 import { LuMail } from "react-icons/lu";
 import Link from "next/link";
+import { useState } from "react";
 
 const Footer = () => {
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
+
   const changeTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
     document.documentElement.classList.toggle("dark");
   };
 
   return (
     <div className="border-t border-neutral-400 dark:border-neutral-700 p-2 text-secondary flex justify-between">
       <div className="flex items-center gap-4">
-        <FiSun
-          onClick={changeTheme}
-          className="size-4 sm:size-5 hover:text-green-600 dark:hover:text-green-400 text-secondary cursor-pointer"
-        />
+        {theme === "dark" ? (
+          <FiSun
+            onClick={changeTheme}
+            className="size-4 sm:size-5 hover:text-green-600 dark:hover:text-green-400 text-secondary cursor-pointer"
+          />
+        ) : (
+          <FiMoon
+            onClick={changeTheme}
+            className="size-4 sm:size-5 hover:text-green-600 dark:hover:text-green-400 text-secondary cursor-pointer"
+          />
+        )}
       </div>
       <div>
         <p className="mb-2 text-secondary text-xs sm:text-sm">

@@ -126,7 +126,7 @@ export const projects = [
   {
     title: "Vibe Check",
     description:
-      "tired of arguing which song to play next? Vibe Check is here to help you decide! Create a room, invite your friends, vote and let the vibes flow.",
+      "tired of arguing which song to play next? Vibe Check is here to help you decide! Create a room, invite your friends, vote and let the vibes flow",
     liveLink: "https://vibe-check-ruddy.vercel.app",
     githubLink: "https://github.com/iSubhamMani/vibe-check",
     techUsed: [
@@ -142,7 +142,7 @@ export const projects = [
   {
     title: "LearnIt",
     description:
-      "level up your learning. LearnIt delivers instant note summaries, powerful quizzes, and engaging discussions.",
+      "level up your learning. LearnIt delivers instant note summaries, powerful quizzes, and engaging discussions",
     liveLink: "https://learnit-tawny.vercel.app/",
     githubLink: "https://github.com/iSubhamMani/learnit",
     techUsed: [
