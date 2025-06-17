@@ -33,7 +33,7 @@ const About = () => {
         />
       </div>
       <section className="flex flex-col items-center mt-8 md:mt-12">
-        <ul className="space-y-2 text-xs sm:text-sm md:text-base">
+        <ul className="space-y-2 text-sm sm:text-base">
           <li>
             🎓 pursuing Bachelor&apos;s in Computer Science at The Heritage
             Institute of Technology, Kolkata.
