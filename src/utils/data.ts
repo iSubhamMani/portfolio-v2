@@ -124,6 +124,19 @@ export const workExperience = [
 
 export const projects = [
   {
+    title: "Shorty",
+    description: "the no-nonsense URL shortener.",
+    liveLink: "https://app.shorty.subhammani.xyz",
+    githubLink: "https://github.com/iSubhamMani/shorty",
+    techUsed: [
+      "AWS Lambda",
+      "AWS DynamoDB",
+      "AWS API Gateway",
+      "Serverless",
+      "Next.js",
+    ],
+  },
+  {
     title: "Vibe Check",
     description:
       "tired of arguing which song to play next? Vibe Check is here to help you decide! Create a room, invite your friends, vote and let the vibes flow",
