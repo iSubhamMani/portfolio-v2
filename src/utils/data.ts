@@ -1,4 +1,4 @@
-import { FaDocker, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaDocker, FaNodeJs, FaReact, FaAws } from "react-icons/fa";
 import { DiRedis } from "react-icons/di";
 import { TbBrandSocketIo } from "react-icons/tb";
 import {
@@ -82,6 +82,11 @@ export const techStack = [
     color: "#FFCA28",
   },
   {
+    name: "AWS",
+    icon: FaAws,
+    color: "#FF9900",
+  },
+  {
     name: "Docker",
     icon: FaDocker,
     color: "#2496ED",
@@ -123,6 +128,21 @@ export const workExperience = [
 ];
 
 export const projects = [
+  {
+    title: "Puspa Sports",
+    description: "built an ecom platform for a local trophies and awards biz.",
+    liveLink: "https://puspasports.com",
+    githubLink: "#",
+    techUsed: [
+      "AWS RDS",
+      "EC2",
+      "Node.js",
+      "Express.js",
+      "Tanstack Query",
+      "Zustand",
+      "Next.js",
+    ],
+  },
   {
     title: "Shorty",
     description: "the no-nonsense URL shortener.",
