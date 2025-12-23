@@ -145,13 +145,13 @@ export const projects = [
   },
   {
     title: "Shorty",
-    description: "the no-nonsense URL shortener.",
+    description: "the no-nonsense URL shortener",
     liveLink: "https://app.shorty.subhammani.xyz",
     githubLink: "https://github.com/iSubhamMani/shorty",
     techUsed: [
       "AWS Lambda",
-      "AWS DynamoDB",
-      "AWS API Gateway",
+      "DynamoDB",
+      "API Gateway",
       "Serverless",
       "Next.js",
     ],
