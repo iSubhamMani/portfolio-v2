@@ -136,6 +136,7 @@ export const projects = [
     techUsed: [
       "AWS RDS",
       "EC2",
+      "ElastiCache",
       "Node.js",
       "Express.js",
       "Tanstack Query",
